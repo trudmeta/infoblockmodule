@@ -1,0 +1,20 @@
+{
+  "name": "oxtrd/paymentinfoblock",
+  "description": "Payment info block",
+  "type": "oxideshop-module",
+  "keywords": ["oxid", "modules", "eShop"],
+  "license": [
+    "GNU"
+  ],
+  "version": "1.0.0",
+  "extra": {
+    "oxideshop": {
+      "target-directory": "oxtrd/paymentinfoblock"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "Trd\\InfoBlock\\": "./"
+    }
+  }
+}
